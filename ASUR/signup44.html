@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Simple Login Form Example</title>
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Rubik:400,700'>
+  <link rel="stylesheet" href="./style1.css">
+</head>
+<body>
+<div class="login-form">
+  <form action="connectttt.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200" onsubmit="showSignupAlert()">
+    <h1>SIGNUP</h1>
+    <div class="content">
+      <div class="input-field">
+        <input type="text" name="firstname" placeholder="firstname" autocomplete="new-password">
+      </div>
+      <div class="input-field">
+        <input type="text" name="lastname" placeholder="lastname" autocomplete="nope">
+      </div>
+      <div class="input-field">
+        <input type="text" name="email" placeholder="Email" autocomplete="nope">
+      </div>
+      <div class="input-field">
+        <input type="text" name="userid" placeholder="user_id" autocomplete="nope">
+      </div>
+      <div class="input-field">
+        <input type="password" name="password" placeholder="Password" autocomplete="new-password">
+      </div>
+    </div>
+    <div class="action">
+      <button type="submit">Sign up</button>
+    </div>
+  </form>
+</div>
+
+<script src="./script.js"></script>
+<script>
+  // Function to show the successful signup alert
+  function showSignupAlert() {
+    alert("Signup successful!");
+  }
+</script>
+</body>
+</html>
